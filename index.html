@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="header1">
+        <div class="shpka">
+            <img src="./imghed/Log.svg" alt="">
+            <div>
+                <a href=""><img src="./imghed/sayt/youtube logo.svg" alt=""></a>
+                <a href=""><img src="./imghed/sayt/vk logo.svg" alt=""></a>
+                <a href=""><img src="./imghed/sayt/facebook-rect logo.svg" alt=""></a>
+                <a href=""><img src="./imghed/sayt/twitch logo.svg" alt=""></a>
+                <a href=""><img src="./imghed/sayt/twitter-square logo.svg" alt=""></a>
+                <a href=""><img src="./imghed/sayt/instagram-square logo.svg" alt=""></a>
+                <button class="Maga" onclick="toggleMain1()"></button>
+            </div>
+        </div>
+        <div class="profil" id="profil">
+            
+            <button id="logoutButton">Logout</button>
+        </div>
+        
+        <div class="main1-container" id="main1-container">
+            <div class="main1" id="main1" style="display: none;">
+                <input type="checkbox" id="chk" aria-hidden="true">
+                <div class="signup">
+                    <form id="registrationForm">
+                        <label for="chk" aria-hidden="true">Sign up</label>
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input
+                                  type="text"
+                                  id="username"
+                                  placeholder="Enter your username"
+                                  required
+                                />
+                              </div>
+                              <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input
+                                  type="email"
+                                  id="email"
+                                  placeholder="Enter your email"
+                                  required
+                                />
+                              </div>
+                              <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input
+                                  type="password"
+                                  id="password"
+                                  placeholder="Enter your password"
+                                  required
+                                />
+                              </div>
+                              <div class="button input-box">
+                                <input type="submit" value="Submit" style="height: 39px; color: #573b8a;"/>
+                              </div>
+                          </div>
+                        </form>
+                </div>
+                <div class="login">
+                    <form id="loginForm">
+                        <label for="chk" aria-hidden="true">Login</label>
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input
+                                  type="text"
+                                  id="loginUsername"
+                                  placeholder="Enter your email"
+                                  required
+                                />
+                              </div>
+                              <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input
+                                  type="password"
+                                  id="loginPassword"
+                                  placeholder="Enter your password"
+                                  required
+                                />
+                              </div>
+                            <div class="button input-box">
+                              <input type="submit" value="Submit" style="height: 39px; color: #573b8a;"/>
+                            </div>       
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <div class="container_main1">
+        <div class="cont_text">
+            <h1>Найт-Сити изменит тебя навсегда!</h1>
+            <p><span style="color: rgb(0, 106, 198);"><em>Cyberpunk 2077</em></span> — приключенческая ролевая игра, 
+                действие которой происходит в мегаполисе Найт-Сити, 
+                где<br> власть, роскошь и модификации тела ценятся выше всего. 
+                Ты играешь за V, наёмника в поисках устройства,<br> позволяющего 
+                обрести бессмертие. Ты сможешь менять киберимпланты, навыки и 
+                стиль игры своего<br> персонажа, исследуя открытый мир, где твои 
+                поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+        </div>
+
+        <div class="cont_img">
+            <div class="img1">
+            <img style="max-width: 460px; padding-bottom: 32px;" src="img/Rectangle 63.png" alt="">    
+            <img style="max-width: 460px;" src="img/Rectangle 62.png" alt="">  
+            <img style="max-width: 788px; position: relative; bottom: 422px; left: 500px;" src="img/Rectangle 61.png" alt="">  
+            </div>
+            <!-- 
+            <div class="img2">
+                <img style="max-width: 788px;" src="img/Rectangle 61.png" alt="">
+            </div> -->
+        </div>
+    </div>
+       
+    </div>
+
+    <div class="container_2">
+        <img style="width: 100%;" src="img/black.png" alt="">
+        <div class="black_main">
+            <div class="logo_h1">
+                <img style="max-width: 132px;" src="img/logo.svg" alt="">
+                <h1>Играй и выигрывай!</h1>
+            </div>
+            <!-- <img src="img/logotext.svg" alt=""> -->
+        </div>
+        <div class="logo_p">
+            <p>Играй в<span style="color: rgb(0, 106, 198);"> Cyberpunk 2077</span> и получи возможность выиграть консоль <span style="color: rgb(0, 106, 198);">
+                Xbox Series X</span> или<span style="color: rgb(0, 106, 198);"> Sony PlayStation 5!</span> Заполни<br> форму ниже и приложи 
+                скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
+        </div>
+
+        <div class="playstation_img">
+            <img src="img/Group 217.png" alt="">
+        </div>
+    </div>
+
+    <div class="container_3">
+        <img style="width: 100%;" src="img/yellow.png" alt="">
+        <div class="yellow_main">
+            <div class="yellow_img">
+                <img src="img/comp.png" alt="">
+                <img src="img/cyberpunk.png" alt="">
+            </div>
+            
+            <div class="yellow_text">
+                <h1>Полное погружение<br> вместе с HP</h1>
+                <p>Погрузись в современные экшен-игры с реалистичным изображением 
+                    с помощью монитора с диагональю 23,8 дюйма, созданном 
+                    для отображения максимально насыщенных цветов. Успевай 
+                    реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
+
+                    <div class="yellow_p">
+                        <img style="max-width: 24px; max-height: 24px;" src="img/color_lens.png" alt=""><p>Яркие насыщенные цвета</p>
+                        <!-- <p>Кристальная четкость изображения</p>
+                        <p>Быстрые движения и плавный геймплей</p> -->
+                    </div>
+
+                    <div class="yellow_p">
+
+                        <img style="max-width: 24px; max-height: 24px;" src="img/Vector (2).png" alt=""><p>Кристальная четкость изображения</p>
+                        
+                    </div>
+
+                    <div class="yellow_p">
+                        <img style="max-width: 24px; max-height: 24px;" src="img/Vector (4).png" alt=""><p>Быстрые движения и плавный геймплей</p>
+                    </div>
+                    <button class="yellow_button">Подробнее</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="container_4">
+        <div class="cont4_img"><img src="img/Untitled.png" alt=""></div>
+        <div class="cont4_text">
+            <h1>Купить игру<br> Cyberpunk 2077</h1>
+            <div class="cont4_p">
+                <p><span style="color: rgb(0, 208, 255); font-size: 24px;">В комплект входит:</span></p>
+                <!-- <p style="margin-left: 72px;">Футляр с кодом для загрузки игры и дисками (pc)</p>
+                <p style="margin-left: 72px;">Справочник с информацией об игровом мире</p> -->
+            </div>
+
+            <div class="cont4_p">
+                <img style="margin-left: 30px;" src="img/disk (1).png" alt=""><p>Футляр с игровыми дисками</p>
+                <!-- <p style="margin-left: 72px;">Футляр с кодом для загрузки игры и дисками (pc)</p>
+                <p style="margin-left: 72px;">Справочник с информацией об игровом мире</p> -->
+            </div>
+
+            <div class="cont4_p">
+                <img style="margin-left: 30px;" src="img/Group.png" alt=""><p>Футляр с игровыми дисками</p>
+                <!-- <p style="margin-left: 72px;">Футляр с кодом для загрузки игры и дисками (pc)</p>
+                <p style="margin-left: 72px;">Справочник с информацией об игровом мире</p> -->
+            </div>
+
+            <div class="cont4_p">
+                <img style="margin-left: 30px;" src="img/Vector (3).png" alt=""><p>Футляр с игровыми дисками</p>
+                <!-- <p style="margin-left: 72px;">Футляр с кодом для загрузки игры и дисками (pc)</p>
+                <p style="margin-left: 72px;">Справочник с информацией об игровом мире</p> -->
+            </div>
+
+            <div class="cont4_p2">
+                <p><span style="color: rgb(0, 208, 255); font-size: 24px; margin-left: -32px;">Выберите платформу:</span></p>
+                <img src="img/platform.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container_5">
+        <div>
+            <img src="img/footer_logo.png" alt="">
+            <img src="img/footer_logo2.png" alt="">
+        </div>
+        
+        <div>
+            <a style="color: black;" href="#">Лицензия</a>
+            <a style="color: black;" href="#">Политика конфиденциальности</a>
+        </div>
+        
+    </div>
+
+    <div class="container_6">
+        <p>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
+    </div>
+    <script>
+        
+    </script>
+    <script src="./regist.js"></script>
+    
+</body>
+</html>
